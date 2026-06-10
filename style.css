@@ -1,0 +1,155 @@
+body {
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: #fffdf7;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #ffe066, #ffd43b);
+    padding: 25px 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background: #fff3bf;
+    color: #000;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto 40px;
+    padding: 0 15px 20px;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.box {
+    background: #f1f8ff;
+    padding: 18px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    border-left: 6px solid #74c0fc;
+}
+
+.box h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.box h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.box img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th {
+    background: #e7f5ff;
+    width: 150px;
+}
+
+table th,
+table td {
+    border: 1px solid #b5d9f5;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.box ul {
+    padding-left: 20px;
+    margin: 8px 0;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background: #4dabf7;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #1c7ed6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 13px;
+}
